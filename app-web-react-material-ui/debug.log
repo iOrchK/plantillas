@@ -1,0 +1,4 @@
+[0911/002813.090:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: El archivo de paginación es demasiado pequeño para completar la operación. (0x800705AF)
+[0911/002813.091:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[0911/002813.091:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[0911/002813.095:ERROR:process_info.cc(359)] UncheckedAllocate
