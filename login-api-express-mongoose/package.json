@@ -1,0 +1,33 @@
+{
+  "name": "login-api-express-mongoose",
+  "version": "1.0.0",
+  "description": "Plantilla de Login para APIs con ExpressJS y Mongoose",
+  "author": "Jorge Chable",
+  "license": "Copyleft",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jwt-simple": "^0.5.6",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.6",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "dredd": "^12.0.4",
+    "newman": "^4.5.7",
+    "supertest": "^4.0.2"
+  }
+}
