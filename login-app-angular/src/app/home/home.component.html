@@ -1,0 +1,22 @@
+<nav class="navbar navbar-dark bg-primary">
+  <a class="navbar-brand">Home</a>
+
+  <div class="form-inline">
+    <div class="btn-group">
+      <button
+        class="btn text-white dropdown-toggle"
+        data-toggle="dropdown"
+        data-display="static"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        {{ userName }}
+      </button>
+      <div class="dropdown-menu dropdown-menu-lg-right">
+        <a class="dropdown-item btn" (click)="onCloseSession()"
+          >Close session</a
+        >
+      </div>
+    </div>
+  </div>
+</nav>
