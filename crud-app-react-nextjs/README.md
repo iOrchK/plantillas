@@ -5,9 +5,9 @@ Plantilla de CRUD para aplicaciones con React y NextJs
 ## Framework y dependencias
 
 ```bash
-NextJS -> https://nextjs.org/
+NextJS -> https://nextjs.org/docs/getting-started
 React -> https://es.reactjs.org/
-Material-ui -> https://material-ui.com/
+Material-ui -> https://material-ui.com/es/getting-started/installation/
 Axios -> https://github.com/axios/axios
 Moment -> https://momentjs.com/
 SWR -> https://swr.vercel.app/

@@ -1,0 +1,23 @@
+{
+  "id": "update",
+  "type": "object",
+  "properties": {
+    "userName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "roleId": {
+      "type": "number",
+      "minimum": 1
+    },
+    "active": {
+      "type": "boolean"
+    }
+  },
+  "required": ["userName", "email", "password", "roleId", "active"]
+}

@@ -4,9 +4,10 @@
 
 Una simple API desarrollada con NestJS que contiene un CRUD de productos
 
-## Dependencias
+## Framework y Dependencias
 
 ```bash
+NestJS             -> https://docs.nestjs.com/
 @nestjs/config     -> https://docs.nestjs.com/techniques/configuration
 @nestjs/mongoose   -> https://docs.nestjs.com/techniques/mongodb
 env-cmd            -> https://www.npmjs.com/package/env-cmd

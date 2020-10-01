@@ -29,12 +29,12 @@ export const deleteProduct = async (itemId) => {
 };
 
 // Sort data by date
-async function sortData(data, key = "_id", op = "<") {
+const sortData = (data, key = "_id", op = "<") => {
   return data.sort((a, b) => {
-    if (`${a[key]} ${op} ${b[key]}`) {
+    if (eval(`${a[key]} ${op} ${b[key]}`)) {
       return 1;
     } else {
       return -1;
     }
   });
-}
+};
