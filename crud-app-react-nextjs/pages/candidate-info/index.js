@@ -6,6 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import { GetDateTime, TransformDateTime } from "../../lib/dateUtils";
 
 const viewTitle = "Información del candidato";
 
@@ -28,31 +29,31 @@ const useStyles = makeStyles({
 
 export default function SimpleCard() {
   const classes = useStyles();
-  const nombre = (
+  const NombreData = (
     <Typography variant="h5" component="h2">
       <AccountBox fontSize="small" />
       &nbsp; Jorge Carlos Chable Sanchez
     </Typography>
   );
-  const email = (
+  const EmailData = (
     <Typography variant="body2" component="p">
       <Email fontSize="small" />
       &nbsp; yahicimosclick9193@gmail.com
     </Typography>
   );
-  const telefono = (
+  const TelefonoData = (
     <Typography variant="body2" component="p">
       <Phone fontSize="small" />
       &nbsp; 9993310711
     </Typography>
   );
-  const whatsApp = (
+  const WhatsAppData = (
     <Typography variant="body2" component="p">
       <WhatsApp fontSize="small" />
       &nbsp; 9992771993
     </Typography>
   );
-  const escuela = (
+  const EscuelaData = (
     <Typography variant="body2" component="p">
       <School fontSize="small" />
       &nbsp; Centro de Estudios Superios CTM
@@ -73,13 +74,13 @@ export default function SimpleCard() {
             color="textSecondary"
             gutterBottom
           >
-            {Date()}
+            {TransformDateTime(GetDateTime())}
           </Typography>
-          {nombre}
-          {email}
-          {telefono}
-          {whatsApp}
-          {escuela}
+          {NombreData}
+          {EmailData}
+          {TelefonoData}
+          {WhatsAppData}
+          {EscuelaData}
         </CardContent>
       </Card>
     </Layout>
