@@ -1,0 +1,21 @@
+{
+  "name": "crud-lambda-dynamodb",
+  "version": "1.0.0",
+  "description": "Plantilla de CRUD con Serverless para desplegar lambdas",
+  "author": "Jorge Chable",
+  "main": "handler.js",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "jsonschema": "^1.2.7",
+    "moment": "^2.29.0"
+  },
+  "devDependencies": {
+    "serverless-plugin-include-dependencies": "^4.1.0",
+    "serverless-pseudo-parameters": "^2.5.0"
+  },
+  "scripts": {
+    "deploy": "sls deploy -v",
+    "remove": "sls remove"
+  }
+}

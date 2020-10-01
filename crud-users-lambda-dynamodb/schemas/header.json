@@ -1,0 +1,11 @@
+{
+  "api": {
+    "method": "GET",
+    "url": "",
+    "headers": {
+      "Authorization": "",
+      "ApplicationName": "SIGEM",
+      "UserId": "ORQ_SIGEM"
+    }
+  }
+}
